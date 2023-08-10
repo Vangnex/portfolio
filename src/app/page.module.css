@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+  min-height: 100vh;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 17rem;
+  height: 100vh;
+  background-color: #bd5d38!important;
+}
