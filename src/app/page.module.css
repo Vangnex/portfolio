@@ -1,8 +1,10 @@
+@import './variables.css'
+
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding: 0rem;
   min-height: 100vh;
 }
@@ -13,9 +15,40 @@
   text-align: center;
   justify-content: center;
   position: fixed;
+  align-self: flex-start;
   top: 0;
-  left: 0;
-  width: 17rem;
+  width: 20%;
   height: 100vh;
   background-color: #bd5d38!important;
+  z-index: 1030;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.photo {
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%!important;
+  margin-bottom: 1rem;
+}
+
+.navli {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   list-style-type: none;
+}
+
+.navlink {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.core {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
 }
