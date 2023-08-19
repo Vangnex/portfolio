@@ -43,7 +43,7 @@ export default function Home() {
       </nav>
 
       <core style={{"margin-left": navwidth}} className={styles.core}>
-        <section>
+        <section id="aboutSection">
           <div className={styles.aboutContent}>
             <h1>Didier <span style={{"color":"#bd5d38"}}>CHENG</span></h1>
             <div className={styles.sectionSubtitle}>
@@ -53,7 +53,34 @@ export default function Home() {
               - <span style={{"color":"#bd5d38"}}>chengdidier@gmail.com</span>
             </div>
             <div className={styles.aboutText}>
+              Développeur Javascript travaillant principalement en méthode agile.
             </div>
+            <ul className={styles.socialLink}>
+              <li>
+                <a href='https://www.linkedin.com/in/didier-cheng-a21959a9/' target='_blank'>
+                  <div className={styles.circle}>
+                    <Image
+                      src="/linkedin_logo.png"
+                      alt="Linkedin Logo"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href='https://github.com/Vangnex' target='_blank'>
+                  <div className={styles.circle}>
+                    <Image
+                      src="/github_logo.png"
+                      alt="Github Logo"
+                      width={30}
+                      height={30}
+                    />
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
         <section>

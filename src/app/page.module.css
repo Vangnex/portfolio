@@ -8,6 +8,9 @@
   background-color: white;
 }
 
+
+/* NAVIGATION SIDEBAR */
+
 .navigator {
   display: flex;
   flex-direction: column;
@@ -41,6 +44,8 @@
   text-transform: uppercase;
 }
 
+/* CORE CONTENT */
+
 .core {
   display: flex;
   flex-direction: column;
@@ -60,17 +65,13 @@
   */
 }
 
-.aboutContent {
-  margin-left: 60px;  
-}
-
 .core section h1 {
   font-size: 6rem;
   line-height: 5.5rem;
   font-family: 'Saira Extra Condensed',serif;
   color: #343a40;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 
@@ -79,5 +80,50 @@
   font-weight: 500;
   font-size: 1.35rem;
   color: #868e96;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+
+/* CORE CONTENT - ABOUT */
+
+.aboutContent {
+  margin-left: 50px;
+}
+
+.aboutText {
+  font-family: 'Open Sans',serif;
+  color: #868e96;
+  margin-bottom: 80px;
+}
+
+.socialLink {
+  list-style: none;
+  display: flex;
+}
+
+.socialLink li {
+  margin-right: 10px;
+}
+
+/* CORE CONTENT - EXPERIENCE */
+
+
+/* OTHERS */
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #495057;
+}
+
+.circle:hover {
+  background-color: #bd5d38;
+}
+
+.circle:active {
+  background-color: #824027;
 }
