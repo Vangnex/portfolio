@@ -43,8 +43,9 @@ export default function Home() {
       </nav>
 
       <core style={{"margin-left": navwidth}} className={styles.core}>
-        <section id="aboutSection">
-          <div className={styles.aboutContent}>
+
+        <section id="aboutSection"  style={{"justify-content": "center"}}>
+          <div className={styles.coreMargin}>
             <h1>Didier <span style={{"color":"#bd5d38"}}>CHENG</span></h1>
             <div className={styles.sectionSubtitle}>
               92, Avenue Magellan 
@@ -83,8 +84,20 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section>
-          <h1>Didier CHENG</h1>
+
+        <section id="experienceSection">
+          <div className={styles.coreMargin}>
+            <h2>Expériences</h2>
+            <div className={styles.experienceFrame}>
+              <div className={styles.experienceInfo}>
+                <h3>Senior Web Developper</h3>
+                <div></div>
+                <p></p>
+              </div>
+              <div className={styles.experienceDate}>
+              </div>
+            </div>
+          </div>
         </section>
       </core>
 

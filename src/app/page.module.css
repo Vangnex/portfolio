@@ -53,10 +53,15 @@
   margin-right: auto;
 }
 
+.coreMargin {
+  margin-left: 50px;
+  padding-top: 80px;
+}
+
 .core section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   min-height: 800px;
   border-bottom: 0.1rem solid black;
   /*
@@ -74,6 +79,13 @@
   margin-bottom: 10px;
 }
 
+.core section h2 {
+  font-size: 48px;
+  font-family: 'Saira Extra Condensed',serif;
+  color: #343a40;;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
 
 .sectionSubtitle {
   font-family: 'Saira Extra Condensed',serif;
@@ -106,6 +118,28 @@
 }
 
 /* CORE CONTENT - EXPERIENCE */
+
+.experienceFrame {
+  display: flex;
+  flex-direction: row;
+}
+
+.experienceInfo {
+  margin-right: auto;
+}
+
+.experienceInfo h3 {
+  font-family: 'Open Sans',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 20px;
+}
+
+.experienceDate {
+  min-width: 288px;
+  text-align: right;
+}
 
 
 /* OTHERS */
