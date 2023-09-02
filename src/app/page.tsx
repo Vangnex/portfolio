@@ -4,40 +4,56 @@ import Variables from './variables.css'
 
 const experiences = [
   {
-    title : 'Senior Web Developer',
-    subtitle : 'InCube',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2020 - 12/2021'
+    title : 'Développeur PHP Full Stack (Stage + CDD)',
+    subtitle : 'InCube (Innovative Insurance Insight)',
+    description : 'Intégré dans une équipe de 2 développeurs PHP dont 1 senior, j\'ai participé au développement d\'une\
+                   plateforme web d\'application d\'assurance et d\'épargne. Notammment, j\'ai aidé au développement\
+                   de nouvelles fonctionnalités en back avec le framework Laravel et développement de front avec\
+                   Laravel Blade, HTTP et Javascript. L\'organisation du travail était en méthode agile avec le modèle\
+                   Scrumban, c\'est à dire sous forme de sprint d\'un mois avec des réunions journalières tel la méthode\
+                   Scrum mais également sous forme de tickets organisés sur un tableau tel la méthode Kanban.',
+    date : '03/2022 - 02/2023',
   },
   {
-    title : 'Senior Web Developer',
-    subtitle : 'InCube',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2022 - 12/2023'
+    title : 'Développeur PHP Full Stack (Stage à temps partiel)',
+    subtitle : 'Greendid',
+    description : 'Start up constitué de 3 personnes dont 1 CTO. J\'ai participé au développement d\'une application web\
+                  de marketplace C2B de revente de produits high tech. J\'ai aidé au développement d\'un serveur API rest\
+                  en Laravel. J\'ai également travaillé sur la refonte du front de l\'application en vue.js et bootstrap.',
+    date : '09/2021 - 02/2022',
   },
   {
-    title : 'Senior Web Developer',
-    subtitle : 'InCube',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2022 - 12/2023'
+    title : 'Développeur Python (Stage)',
+    subtitle : 'Maisons du Monde',
+    description : 'Intégré dans le groupe de data scientist de la compagnie, j\'ai eu pour mission de migrer les scripts\
+                  en Python 2 vers Python 3 permettant la gestion et l\'analyse des données de l\'entreprise sur leur\
+                  ventes. J\'ai également travaillé sur des tests unitaire correspondant à ces migrations de codes.',
+    date : '03/2020 - 08/2020',
   },
   {
-    title : 'Senior Web Developer',
-    subtitle : 'InCube',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2022 - 12/2023'
+    title : 'Développeur C# (Stage)',
+    subtitle : 'FB04',
+    description : 'Start up tout juste constitué, son objet se porte sur les modélisations 3D et des applications\
+                  d\'affichage de modèles 3D. J\'y ai étudié OpenGL ES pour la visualisation 3D sur mobile',
+    date : '11/2018 - 12/2018',
+  },
+]
+
+const otherExp = [
+  {
+    title : 'Employé polyvalent (Entreprise Familiale)',
+    subtitle : 'Papan',
+    description : 'Durant mon temps libre, j\'aide parfois au traiteur de ma famille. C\'est ici que l\'on m\'a inculqué\
+                  l\'écoute et à servir les clients en travaillant au comptoir et au service de table.',
+    date : '01/2008 - Aujourd\'hui',
+  },
+  {
+    title : 'Comptable (Alternance)',
+    subtitle : 'Ad Valorem',
+    description : 'Avant de devenir développeur, j\'ai fait de la comptabilité en tant qu\'apprenti dans ce cabinet\
+                  comptable. J\'ai notamment fait le suivi de plusieurs dossiers clients en enregistrant les transactions\
+                  ',
+    date : '12/2014 - 08/2016',
   },
 ]
 
@@ -45,38 +61,26 @@ const educations = [
   {
     title : 'Expertise de la technologie et de l\'innovation',
     subtitle : 'EPITECH PARIS',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2020 - 12/2021'
+    description : '',
+    date : '2017- 2022'
   },
   {
     title : 'Diplôme de Comptabilité et de Gestion',
-    subtitle : 'Teilhard de Chardin',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2022 - 12/2023'
+    subtitle : 'Lycée Teilhard de Chardin',
+    description : '',
+    date : '2011 - 2012 / 2014 - 2017'
   },
   {
     title : 'BTS Comptabilité et Gestion des Organisations',
-    subtitle : 'Teilhard de Chardin',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2022 - 12/2023'
+    subtitle : 'Lycée Teilhard de Chardin',
+    description : '',
+    date : '2012 - 2014'
   },
   {
     title : 'Bac S - Science de l\'ingénieur',
     subtitle : 'Lycée édouard branly',
-    description : 'Blablabla je suis là. Lorem Ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum\
-                  lorem ipsum lorem ipsum lorem ipsum',
-    date : '01/2022 - 12/2023'
+    description : '',
+    date : '2011'
   },
 ]
 
@@ -147,7 +151,7 @@ export default function Home() {
               - <span style={{"color":"#bd5d38"}}>chengdidier@gmail.com</span>
             </div>
             <div className={styles.aboutText}>
-              Développeur Javascript travaillant principalement en méthode agile.
+              Développeur React travaillant principalement en méthode agile.
             </div>
             <ul className={styles.socialLink}>
               <li>
@@ -202,25 +206,42 @@ export default function Home() {
             />
 
             <ExperienceFrame
-              title={experiences[0].title}
-              subtitle={experiences[0].subtitle}
-              description={experiences[0].description}
-              date={experiences[0].date}
-            />
-
-            <ExperienceFrame
-              title={experiences[0].title}
-              subtitle={experiences[0].subtitle}
-              description={experiences[0].description}
-              date={experiences[0].date}
-            />
-
-            <ExperienceFrame
               title={experiences[1].title}
               subtitle={experiences[1].subtitle}
               description={experiences[1].description}
               date={experiences[1].date}
             />
+
+            <ExperienceFrame
+              title={experiences[2].title}
+              subtitle={experiences[2].subtitle}
+              description={experiences[2].description}
+              date={experiences[2].date}
+            />
+
+            <ExperienceFrame
+              title={experiences[3].title}
+              subtitle={experiences[3].subtitle}
+              description={experiences[3].description}
+              date={experiences[3].date}
+            />
+
+            <h2 style={{"margin-top": "100px"}}>Autres expériences</h2>
+
+            <ExperienceFrame
+              title={otherExp[0].title}
+              subtitle={otherExp[0].subtitle}
+              description={otherExp[0].description}
+              date={otherExp[0].date}
+            />
+
+            <ExperienceFrame
+              title={otherExp[1].title}
+              subtitle={otherExp[1].subtitle}
+              description={otherExp[1].description}
+              date={otherExp[1].date}
+            />
+
 
           </div>
         </section>
@@ -258,6 +279,8 @@ export default function Home() {
         <section id="skillSection">
           <div className={styles.coreMargin}>
             <h2>Compétences</h2>
+
+            <div className={styles.experienceSubtitle}>Langages de programmation et Frameworks</div>
             <ul className={styles.socialLink}>
               <li>
                 <div className={styles.circle}>
@@ -271,12 +294,7 @@ export default function Home() {
               </li>
               <li>
                 <div className={styles.circle}>
-                  <Image
-                    src="/linkedin_logo.png"
-                    alt="Linkedin Logo"
-                    width={50}
-                    height={50}
-                  />
+                  <p style={{"color":"white"}}>Test</p>
                 </div>
               </li>
               <li>
