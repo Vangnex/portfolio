@@ -113,6 +113,7 @@
 .socialLink {
   list-style: none;
   display: flex;
+  margin-top: 50px;
 }
 
 .socialLink li {
@@ -186,5 +187,23 @@
 }
 
 .circle:active {
+  background-color: #824027;
+}
+
+.skillCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #495057;
+}
+
+.skillCircle:hover {
+  background-color: #bd5d38;
+}
+
+.skillCircle:active {
   background-color: #824027;
 }

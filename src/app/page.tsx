@@ -283,27 +283,78 @@ export default function Home() {
             <div className={styles.experienceSubtitle}>Langages de programmation et Frameworks</div>
             <ul className={styles.socialLink}>
               <li>
-                <div className={styles.circle}>
+                <div className={styles.skillCircle}>
                   <Image
-                    src="/js_logo.png"
-                    alt=""
-                    width={50}
-                    height={50}
+                    src="/html_logo.png"
+                    alt="HTML"
+                    width={75}
+                    height={100}
                   />
                 </div>
               </li>
               <li>
-                <div className={styles.circle}>
-                  <p style={{"color":"white"}}>Test</p>
+                <div className={styles.skillCircle}>
+                  <Image
+                    src="/css_logo.png"
+                    alt="CSS"
+                    width={75}
+                    height={100}
+                  />
+                </div>
+              </li>
+            </ul>
+
+            <ul className={styles.socialLink}>
+              <li>
+                <div className={styles.skillCircle}>
+                  <Image
+                    src="/js_logo.png"
+                    alt="Javascript"
+                    width={75}
+                    height={100}
+                  />
                 </div>
               </li>
               <li>
-                <div className={styles.circle}>
+                <div className={styles.skillCircle}>
                   <Image
-                    src="/github_logo.png"
-                    alt="Github Logo"
-                    width={50}
-                    height={50}
+                    src="/react_logo.png"
+                    alt="React JS"
+                    width={100}
+                    height={100}
+                  />
+                </div>
+              </li>
+              <li>
+                <div className={styles.skillCircle}>
+                  <Image
+                    src="/node_logo.png"
+                    alt="Node JS"
+                    width={125}
+                    height={100}
+                  />
+                </div>
+              </li>
+            </ul>
+
+            <ul className={styles.socialLink}>
+              <li>
+                <div className={styles.skillCircle}>
+                  <Image
+                    src="/php_logo.png"
+                    alt="PHP"
+                    width={100}
+                    height={100}
+                  />
+                </div>
+              </li>
+              <li>
+                <div className={styles.skillCircle}>
+                  <Image
+                    src="/laravel_logo.png"
+                    alt="Laravel"
+                    width={100}
+                    height={100}
                   />
                 </div>
               </li>
