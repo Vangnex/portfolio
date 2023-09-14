@@ -57,7 +57,7 @@ const otherExp = [
   },
 ]
 
-const educations = [
+const educations : {title : string; subtitle : string; description : string; date : string} [] = [
   {
     title : 'Expertise de la technologie et de l\'innovation',
     subtitle : 'EPITECH PARIS',
@@ -143,12 +143,12 @@ export default function Home() {
 
         <section id="aboutSection">
           <div className={styles.coreMargin}>
-            <h1>Didier <span style={{"color":"#bd5d38"}}>CHENG</span></h1>
+            <h1>Didier <span style={{"color":"#A13BBD"}}>CHENG</span></h1>
             <div className={styles.sectionSubtitle}>
               92, Avenue Magellan 
               - 94000 Créteil 
               - 06 27 91 39 13 
-              - <span style={{"color":"#bd5d38"}}>chengdidier@gmail.com</span>
+              - <span style={{"color":"#A13BBD"}}>chengdidier@gmail.com</span>
             </div>
             <div className={styles.aboutText}>
               Développeur React travaillant principalement en méthode agile.
@@ -198,50 +198,29 @@ export default function Home() {
           <div className={styles.coreMargin}>
             <h2>Expériences</h2>
 
-            <ExperienceFrame
-              title={experiences[0].title}
-              subtitle={experiences[0].subtitle}
-              description={experiences[0].description}
-              date={experiences[0].date}
-            />
-
-            <ExperienceFrame
-              title={experiences[1].title}
-              subtitle={experiences[1].subtitle}
-              description={experiences[1].description}
-              date={experiences[1].date}
-            />
-
-            <ExperienceFrame
-              title={experiences[2].title}
-              subtitle={experiences[2].subtitle}
-              description={experiences[2].description}
-              date={experiences[2].date}
-            />
-
-            <ExperienceFrame
-              title={experiences[3].title}
-              subtitle={experiences[3].subtitle}
-              description={experiences[3].description}
-              date={experiences[3].date}
-            />
+            {experiences.map( (data) => {
+              return (
+                <ExperienceFrame
+                  title={data.title}
+                  subtitle={data.subtitle}
+                  description={data.description}
+                  date={data.date}
+                />
+              )
+            })}
 
             <h2 style={{"margin-top": "100px"}}>Autres expériences</h2>
 
-            <ExperienceFrame
-              title={otherExp[0].title}
-              subtitle={otherExp[0].subtitle}
-              description={otherExp[0].description}
-              date={otherExp[0].date}
-            />
-
-            <ExperienceFrame
-              title={otherExp[1].title}
-              subtitle={otherExp[1].subtitle}
-              description={otherExp[1].description}
-              date={otherExp[1].date}
-            />
-
+            {otherExp.map( (data) => {
+              return (
+                <ExperienceFrame
+                  title={data.title}
+                  subtitle={data.subtitle}
+                  description={data.description}
+                  date={data.date}
+                />
+              )
+            })}
 
           </div>
         </section>
@@ -249,30 +228,17 @@ export default function Home() {
         <section id="formationSection">
           <div className={styles.coreMargin}>
             <h2>Formations</h2>
-            <ExperienceFrame
-              title={educations[0].title}
-              subtitle={educations[0].subtitle}
-              description={educations[0].description}
-              date={educations[0].date}
-            />
-            <ExperienceFrame
-              title={educations[1].title}
-              subtitle={educations[1].subtitle}
-              description={educations[1].description}
-              date={educations[1].date}
-            />
-            <ExperienceFrame
-              title={educations[2].title}
-              subtitle={educations[2].subtitle}
-              description={educations[2].description}
-              date={educations[2].date}
-            />
-            <ExperienceFrame
-              title={educations[3].title}
-              subtitle={educations[3].subtitle}
-              description={educations[3].description}
-              date={educations[3].date}
-            />
+
+            {educations.map( (data) => {
+              return (
+                <ExperienceFrame
+                  title={data.title}
+                  subtitle={data.subtitle}
+                  description={data.description}
+                  date={data.date}
+                />
+              )
+            })}
           </div>
         </section>
 
@@ -366,12 +332,31 @@ export default function Home() {
         <section id="portfolioSection">
           <div className={styles.coreMargin}>
             <h2>Portfolio</h2>
+
+            <div className={styles.experienceInfo}>
+              <h3>Page Didier Cheng (Ici même)</h3>
+              <div className={styles.experienceSubtitle}>
+                <a href='https://github.com/Vangnex/portfolio' target='_blank'>Lien Github</a>
+              </div>
+              <p>
+                Introduction à React, au HTML et CSS. Création d'une page web servant de présentation, CV et Portfolio.
+                Site constamment mis à jour.
+              </p>
+            </div>
+
           </div>
         </section>
 
         <section id="interestSection">
           <div className={styles.coreMargin}>
             <h2>Intérêts</h2>
+            <p>
+              En dehors de la programmation, je suis quelqu'un de plutôt casanier mais qui apprend à sortir de sa zone
+              de confort petit à petit. J'aime les jeux vidéos, notamment des titres comme "Super Robot Taisen",
+              "Castlevania", "Monster Hunter", "Pokemon" ou encore "Armored Core". J'aime également la culture
+              japonaise ainsi que les Mechas (Notamment les séries Gundam).
+              J'aime également parler et faire un peu de cuisine si l'occasion se présente.
+            </p>
           </div>
         </section>
 

@@ -20,7 +20,7 @@
   align-self: flex-start;
   top: 0;
   height: 100vh;
-  background-color: #bd5d38!important;
+  background-color: #A13BBD!important;
   z-index: 1030;
   align-items: center;
   padding: 0.5rem 1rem;
@@ -59,6 +59,17 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.coreMargin p {
+  font-family: 'Open Sans',serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #868e96;
+  text-align: justify;
+  margin-right: 150px;
+}
+
 
 .core section {
   display: flex;
@@ -150,7 +161,11 @@
   margin-bottom: 30px;
 }
 
-.experienceFrame p {
+.experienceSubtitle a:hover {
+  color: #495057;
+}
+
+.experienceInfo p {
   font-family: 'Open Sans',serif;
   font-size: 16px;
   font-weight: 400;
@@ -166,7 +181,7 @@
 
 .experienceDate span {
   font-family: 'Open Sans',serif;
-  color: #bd5d38;
+  color: #A13BBD;
 }
 
 
@@ -183,7 +198,7 @@
 }
 
 .circle:hover {
-  background-color: #bd5d38;
+  background-color: #A13BBD;
 }
 
 .circle:active {
@@ -197,11 +212,11 @@
   width: 150px;
   height: 150px;
   border-radius: 20px;
-  background-color: #495057;
+  background-color: #868e96;
 }
 
 .skillCircle:hover {
-  background-color: #bd5d38;
+  background-color: #A13BBD;
 }
 
 .skillCircle:active {
