@@ -147,7 +147,7 @@ export default function Home() {
         </ul>
       </nav>
 
-      <core className={styles.core}>
+      <core style={{"marginLeft": navwidth}} className={styles.core}>
 
         <section id="aboutSection">
           <div className={styles.coreMargin}>
@@ -217,7 +217,7 @@ export default function Home() {
               )
             })}
 
-            <h2 style={{"margin-top": "100px"}}>Autres expériences</h2>
+            <h2 style={{"marginTop": "100px"}}>Autres expériences</h2>
 
             {otherExp.map( (data) => {
               return (
