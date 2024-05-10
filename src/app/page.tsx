@@ -163,7 +163,7 @@ export default function Home() {
             </div>
             <ul className={styles.socialLink}>
               <li>
-                <a href='/CV_Didier_CHENG_Front.pdf' target='_blank'>
+                <a href='/CV_Didier_Cheng.pdf' target='_blank'>
                   <div className={styles.circle}>
                     <Image
                       src="/cv_logo.png"
