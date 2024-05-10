@@ -198,6 +198,18 @@ export default function Home() {
                   </div>
                 </a>
               </li>
+              <li>
+                <a href='https://www.malt.fr/profile/didiercheng' target='_blank'>
+                  <div className={styles.circle}>
+                    <Image
+                      src="/malt_logo.png"
+                      alt="Malt Logo"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                </a>
+              </li>
             </ul>
           </div>
         </section>
