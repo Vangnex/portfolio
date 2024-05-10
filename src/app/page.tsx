@@ -1,5 +1,14 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import * as React from 'react'
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      core: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+    }
+  }
+}
 
 const experiences = [
   {
@@ -138,7 +147,7 @@ export default function Home() {
         </ul>
       </nav>
 
-      <core style={{"margin-left": navwidth}} className={styles.core}>
+      <core className={styles.core}>
 
         <section id="aboutSection">
           <div className={styles.coreMargin}>
